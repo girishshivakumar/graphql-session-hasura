@@ -1,6 +1,5 @@
 const { RESTDataSource } = require('apollo-datasource-rest');
 
-
 class RestuarantsDatasource extends RESTDataSource 
     {
         async getResturants()

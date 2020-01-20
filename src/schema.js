@@ -4,6 +4,7 @@ const typeDefs = gql`
 
 type Query {
     resturants : [Resturant],
+    resturants2 : [Resturant],
     resturant : Resturant,
     foodItems(resturantID : Int) : [FoodItem]
     
